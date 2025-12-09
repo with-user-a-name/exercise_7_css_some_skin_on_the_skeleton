@@ -1,0 +1,67 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+    text-align: center; /* Center all text */
+}
+
+header {
+    background-color: #00796b;
+    color: white;
+    padding: 20px;
+}
+
+#information {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#video {
+    margin: 20px 0;
+}
+
+#links {
+    margin: 20px 0;
+}
+
+#links ul {
+    display: flex; /* Makes the list horizontal */
+    justify-content: center;
+    list-style: none; /* Remove the bullet points */
+}
+
+#links li {
+    margin: 0 15px;
+}
+
+#links a {
+    text-decoration: none; /* Otherwise always underlined */
+    color: #00796b;
+    font-weight: bold;
+}
+
+#links a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+footer {
+    background-color: #004d40;
+    color: #ffffff;
+    height: 50px; /* Ensure footer is 50px high */
+    display: flex; /* Use flexbox for centering text */
+    align-items: center; /* Center text vertically */
+    justify-content: center; /* Center text horizontally */
+    margin-top: 20px;
+}
+
+/* Add some spacing bwtween the footer items */
+.footerItems {
+    font-size: 80%;
+    margin: 0 15px;
+}
